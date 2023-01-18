@@ -1,18 +1,8 @@
-- name: Chat
-  url: XXX
-  facollection: fab
-  faicon: fa-slack
-  weight: 20
-- name: JupyterHub
-  url: XXX
-  facollection: fab
-  faicon: fa-python
-  weight: 30
 - name: Syllabus
   url: /syllabus
   faicon: fa-book
   weight: 10
 - name: Canvas
-  url: TBD
+  url: https://canvas.illinois.edu/courses/32280
   faicon: fa-school
   weight: 50
