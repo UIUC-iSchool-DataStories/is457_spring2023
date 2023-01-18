@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>A few notes about data types</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/theme/white.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.11.2/css/font-awesome.min.css">
+
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/highlight/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/math/math.js"></script>
+
+
+
+</style>
+
+  <link rel="stylesheet/less" type="text/css" href="/is457_spring2022/assets/styles.less" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+          <section class="titleslide">
+              <h1>A few notes about data types</h1>
+              <h2>Jill Naiman</h2>
+              <h2>Data Storytelling - Spring 2022</h2>
+          </section>
+        <section data-markdown
+           data-separator="^\n---\n"
+           data-separator-vertical="^\n----\n">
+          <script type="text/template">
+<img src="https://static.wixstatic.com/media/6efa5f_e6f70adbf18e41fd8e369abc4c309563~mv2.png/v1/fill/w_770,h_434,al_c,lg_1,q_85/Types%20of%20Data_Visual_PNG.webp">
+
+notes:
+So, usually you're probably used to thinking about data like this - numerical or quantitative which is then broken down into discrete & continous.
+
+Also categorical or qualitative data which is either ordered (ordinal) or unordered (nominal).
+
+---
+
+<img src="https://static.wixstatic.com/media/6efa5f_e6f70adbf18e41fd8e369abc4c309563~mv2.png/v1/fill/w_770,h_434,al_c,lg_1,q_85/Types%20of%20Data_Visual_PNG.webp">
+
+We need to dig a little deeper for visualizing data.
+
+notes:
+This is a fine for something like stats, but we have to start thinking about how data type and format maps itself visually -- what is the best mapping for our visual cortex?
+
+---
+
+### Data organization is important
+
+<div class="left">
+	<img src="images/tamaraSlide.png" width=450>
+</div>
+<div class="right">
+    <img src="images/tamaraTables.png" width=350>
+	 - Munzner - https://www.cs.ubc.ca/~tmm/talks.html
+
+</div>
+
+
+
+notes:
+We have to think a little bit about how our data represents reality *and* how it is represented on disk.
+
+for example, both spatial data like that on a map and data that we use to compare salaries for example, are numerical data - we have lat/long and data value combinations for geographic data and numbers for salaries, but there is something fundementally different about how we would represent these two datasets on a visualization
+
+Similarly for categorical data like with an organization, network, or a tree -- this data is much different than a table of categorical occurances.
+
+---
+
+### Example: Temporal data is numerical, but its also something "else"
+
+<!-- .slide: class="two-floating-elements" -->
+
+<div class="left">
+
+<img src="https://clauswilke.com/dataviz/aesthetic_mapping_files/figure-html/temp-normals-vs-time-1.png" width="400px">
+
+</div>
+
+<div class="right">
+
+<img src="https://clauswilke.com/dataviz/coordinate_systems_axes_files/figure-html/temperature-normals-polar-1.png" width="400px">
+
+</div>
+
+notes:
+temporal data, like here the temperature change in a vew places over time, is numerical, but, depending on what time spans we are interested in, its can also be periodic
+
+The first graph tell us a lot, and the 2nd may at first be a little weird to read but it tells us information about both changes in time and the averages about the place *and* it captures a central nature about this data - that it is periodic
+
+---
+
+          </script>
+        </section>
+      </div>
+    </div>
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        fragments: true,
+        fragmentInURL: true,
+        hash: true,
+        width: 1024,
+        height: 768,
+        margin: 0.02,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath],
+        dependencies: [
+            { src: 'https://cdn.jsdelivr.net/npm/reveald3/reveald3.js'}
+        ],
+		keyboard: {
+		},
+        center: false,
+        transition: 'none',
+        backgroundTransition: 'none',
+        reveald3: {
+            runLastState: false
+        }
+    });
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+
+
+  </body>
+</html>
+
