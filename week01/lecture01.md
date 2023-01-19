@@ -258,6 +258,8 @@ you will dive into the details more for the syllabus quiz, which is an assignmen
 
 the reading quizzes and in class activities are still being developed, so these are not all posted as of yet but we will update the Canvas with those items as soon as possible -- reading quizzes should be there early, but the graded activities may or may not be present until the week we will actually be doing them
 
+also about reading quizzes: as these are new, there might be some errors in them!  if you think we got something wrong, let us know so we can fix it and update your grade accordingly!
+
 more details on the graded in class activities next week when we start using them! as folks are still shifting around classes, we won't be grading any in class stuff this week
 
 
@@ -385,10 +387,12 @@ but you won't be totally on your own -- through Assignments 2 & 5, we will coach
  
  * practice telling a story which is backed by data live to an audience (Assignments 1 & 6) (we will coach you through this process! Assignments 2 & 5, in class activities)
  
- * understand the theory behind why storytelling is effective for communicating with data & get some ideas for how to give great presentations using these techniques and concepts (reading quizzes)
+ * understand the theory behind why storytelling is effective for communicating with data & get some ideas for how to give great presentations using these techniques and concepts (reading quizzes, in class activities)
  
 notes:
 finally, the reading quizzes will help build the foundatational understanding of storytelling to enable you to be successful in all of these endevors!
+
+similarly with the story-oriented in class activities -- these will help you practice these theories!
 
 ---
 
