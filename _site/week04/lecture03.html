@@ -1,14 +1,45 @@
----
-title: Data Stories -- Data Sources
-layout: lecture
-tags:
-  - data sources
-  - TurnItIn
-description: >-
-  Mostly chatting data sources, a bit about TurnItIn.
-date: 2023-02-02
----
+<!doctype html>
+<html>
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+<title>Data Stories -- Data Sources</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/theme/white.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.11.2/css/font-awesome.min.css">
+
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/highlight/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/math/math.js"></script>
+
+
+
+</style>
+
+  <link rel="stylesheet/less" type="text/css" href="/is457_spring2023/assets/styles.less" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+          <section class="titleslide">
+              <h1>Data Stories -- Data Sources</h1>
+              <h2>Jill Naiman & Andy Zalot</h2>
+              <h2>Data Storytelling - Spring 2023</h2>
+          </section>
+        <section data-markdown
+           data-separator="^\n---\n"
+           data-separator-vertical="^\n----\n">
+          <script type="text/template">
 <br>
 <br>
 
@@ -182,4 +213,91 @@ use about 10 minutes to explore the data together
 1. answer these questions together
 1. you do *not* have to do any visualizations with this data at this step (some of the websites will have their own viz options as well)
 
-**more about this next week!**
+
+<!--
+---
+
+# Go explore data webpages!
+
+notes:
+take about 10 minutes
+
+come back, share out
+
+---
+
+## Brainstorm reports!
+
+<!-- https://jamboard.google.com/d/1bDiQWDVVNq8W1tAm9ziXSAyu12OMX89SjYq7sY4N_CE/edit?usp=sharing -->
+
+https://jamboard.google.com/d/15kOMdW3cxSx1-k9YdvlSsD-PvAiAgBZH-c9NKD4BDnQ/edit?usp=sharing
+
+(You need to be signed in to access)
+
+What charts/text/visualizations might support a possible story?
+
+notes:
+before visualizing this data in google data studio, lets take some time to outline some graphs you might want to show based on what stories you were looking for
+
+this is a *ROUGH* draft - just think about different kinds of objects you might want to make
+
+take about 10 minutes!
+
+---
+
+## Plots in Google Data Studio!
+
+(More info about geo-data next week!)
+
+Suggestion \# 1: download (csv/xlsx) $\rightarrow$ up load to drive $\rightarrow$ open in Google Sheets $\rightarrow$ connect in Google Data Studio
+
+Suggestion \# 2: refer to Week 01 and Week 02 slides!
+
+
+notes:
+after sharing out, the rest of the time you'll work in groups to start making some plots with your data
+
+I'd suggest staying away from geo-plots right now (i.e. plots on a map) as we'll cover some ways to do this effectively next week
+
+For data.world, you *can* use a connector, but in general, its probably easier to download a CSV/XLSX file and upload it to your drive and open in a google sheets
+
+also, don't forget you have slides/notes about how to do all of this in google datastudio from the last 2 weeks!
+
+also remember: this is a *rough draft* its fine if you don't get to all of your plots, you can draw what you want them to look like in your report, we'll have more time to do this throughout the semester
+-->
+
+          </script>
+        </section>
+      </div>
+    </div>
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        fragments: true,
+        fragmentInURL: true,
+        hash: true,
+        width: 1024,
+        height: 768,
+        margin: 0.02,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath],
+        dependencies: [
+            { src: 'https://cdn.jsdelivr.net/npm/reveald3/reveald3.js'}
+        ],
+		keyboard: {
+		},
+        center: false,
+        transition: 'none',
+        backgroundTransition: 'none',
+        reveald3: {
+            runLastState: false
+        }
+    });
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+
+
+  </body>
+</html>
+

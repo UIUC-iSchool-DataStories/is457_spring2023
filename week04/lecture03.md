@@ -1,12 +1,6 @@
 ---
 title: Data Stories -- Data Sources
 layout: lecture
-tags:
-  - data sources
-  - TurnItIn
-description: >-
-  Mostly chatting data sources, a bit about TurnItIn.
-date: 2023-02-02
 ---
 
 <br>
@@ -182,4 +176,55 @@ use about 10 minutes to explore the data together
 1. answer these questions together
 1. you do *not* have to do any visualizations with this data at this step (some of the websites will have their own viz options as well)
 
-**more about this next week!**
+
+<!--
+---
+
+# Go explore data webpages!
+
+notes:
+take about 10 minutes
+
+come back, share out
+
+---
+
+## Brainstorm reports!
+
+<!-- https://jamboard.google.com/d/1bDiQWDVVNq8W1tAm9ziXSAyu12OMX89SjYq7sY4N_CE/edit?usp=sharing -->
+
+https://jamboard.google.com/d/15kOMdW3cxSx1-k9YdvlSsD-PvAiAgBZH-c9NKD4BDnQ/edit?usp=sharing
+
+(You need to be signed in to access)
+
+What charts/text/visualizations might support a possible story?
+
+notes:
+before visualizing this data in google data studio, lets take some time to outline some graphs you might want to show based on what stories you were looking for
+
+this is a *ROUGH* draft - just think about different kinds of objects you might want to make
+
+take about 10 minutes!
+
+---
+
+## Plots in Google Data Studio!
+
+(More info about geo-data next week!)
+
+Suggestion \# 1: download (csv/xlsx) $\rightarrow$ up load to drive $\rightarrow$ open in Google Sheets $\rightarrow$ connect in Google Data Studio
+
+Suggestion \# 2: refer to Week 01 and Week 02 slides!
+
+
+notes:
+after sharing out, the rest of the time you'll work in groups to start making some plots with your data
+
+I'd suggest staying away from geo-plots right now (i.e. plots on a map) as we'll cover some ways to do this effectively next week
+
+For data.world, you *can* use a connector, but in general, its probably easier to download a CSV/XLSX file and upload it to your drive and open in a google sheets
+
+also, don't forget you have slides/notes about how to do all of this in google datastudio from the last 2 weeks!
+
+also remember: this is a *rough draft* its fine if you don't get to all of your plots, you can draw what you want them to look like in your report, we'll have more time to do this throughout the semester
+-->
