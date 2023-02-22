@@ -1,5 +1,6 @@
 ---
 layout: week
+visible: true
 ---
 
 # Week 6 - Data Storytelling Attributes

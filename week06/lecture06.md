@@ -1,6 +1,12 @@
 ---
 title: Data Character in Story
 layout: lecture
+tags:
+  - overview
+  - concepts
+description: >-
+  Mapping kinds of data to storytelling characters.
+date: 2023-02-23
 ---
 
 ## Data Characters
