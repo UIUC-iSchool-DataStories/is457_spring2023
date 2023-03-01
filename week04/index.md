@@ -1,8 +1,8 @@
 ---
 layout: week
-visible: false
+visible: true
 ---
 
-# Week 3 - Data Sources & Groups
+# Week 4 - Peer-reviewed resources & Interactive Graphs with GDS
 
 
