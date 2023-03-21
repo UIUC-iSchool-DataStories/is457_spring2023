@@ -1,7 +1,8 @@
 ---
 layout: week
+visible: true
 ---
 
-# Week 8 - Data Narratives
+# Week 8 - Twine as a Framing Device
 
-More about interaction in narratives.
+An introduction to Twine: twinery.org
