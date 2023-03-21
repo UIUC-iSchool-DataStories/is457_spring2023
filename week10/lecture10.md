@@ -1,6 +1,13 @@
 ---
 title: Data Narratives
 layout: lecture
+tags:
+  - data
+  - narratives
+  - framing devices
+description: >-
+  Different narrative styles for use with data.
+date: 2023-03-23
 ---
 
 ## Storytelling Form: interactive vs static
@@ -522,7 +529,7 @@ we'll use twine to explore these ideas about how to implement these in more deta
 
 here is a little history lesson about Twine from a tutorial for how to make your own interactive game
 
-starts at 6:22- about 7:59/8
+this was the video we watched last week -- starts at 6:22- about 7:59/8
 
 ---
 
